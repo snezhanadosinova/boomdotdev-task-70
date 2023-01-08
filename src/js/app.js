@@ -6,6 +6,5 @@ window.addEventListener("DOMContentLoaded", () => {
   let avatarImage = document.querySelector(".image");
   avatarImage.addEventListener("click", () => {
     avatarImage.style.transform = "scale(2)";
-    avatarImage.style.transition = "transform 3s ease";
   });
 });
